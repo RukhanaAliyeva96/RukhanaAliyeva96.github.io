@@ -57,7 +57,7 @@
                 <li class="nav-item ">
                   <a class="nav-link" href="index.html">Etusivu <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="about.html"> Tietoa Meistä</a>
                 </li>
                 <li class="nav-item">
@@ -66,12 +66,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="testimonial.html">Suosittelu</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="contact.html">Ota Meihin Yhteyttä</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="gift.html">Lahjakortti</a>
-                </li>
               </ul>
               <div class="quote_btn-container">
                 <form class="form-inline">
@@ -90,52 +89,35 @@
       <!-- end header section -->
     </div>
 
+    <!-- about section -->
 
-    <!-- contact section -->
-
-    <section class="contact_section layout_padding">
-      <div class="container-fluid">
+    <section class="about_section layout_padding ">
+      <div class="container  ">
         <div class="row">
-          <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
-            <div class="form_container">
+          <div class="col-md-6">
+            <div class="detail-box">
               <div class="heading_container">
                 <h2>
-                  Ota Meihin Yhteyttä
+                  Meiltä voitte ostaa lahjakortteja!
                 </h2>
               </div>
-              <form action="">
-                <div>
-                  <input type="text" placeholder="Koko Nimi " />
-                </div>
-                <div>
-                  <input type="text" placeholder="Puhelinnumero" />
-                </div>
-                <div>
-                  <input type="email" placeholder="Sähköposti" />
-                </div>
-                <div>
-                  <input type="text" class="message-box" placeholder="Viesti" />
-                </div>
-                <div class="d-flex ">
-                  <button>
-                    LÄHETÄ NYT
-                  </button>
-                </div>
-              </form>
+              <p>
+                Lahjakortti on loistava lahja mihin tahansa juhlaan! Eihän niitä voi viettää ilman makeaa! </p>
+              <a href="#">
+                <img src="images/color-arrow.png" alt="">
+              </a>
             </div>
           </div>
-          <div class="col-md-6  px-0">
-            <div class="map_container">
-              <div class="map">
-                <div id="googleMap"></div>
-              </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="lahjakortti.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- end contact section -->
+    <!-- end about section -->
 
 
     <!-- info section -->
@@ -282,9 +264,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-  <!-- End Google Map -->
 
 </body>
 
